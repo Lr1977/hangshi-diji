@@ -1,0 +1,22 @@
+# Local artifacts
+*.bak
+*.bak_*
+*.log
+*.tmp
+*.swp
+*.exe~
+
+# Archives and media are not part of the open-source starter package
+*.rar
+*.zip
+*.7z
+*.wav
+*.mp4
+*.mov
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
