@@ -31,6 +31,26 @@ Actions:
 
 Trigger to proceed: repository link is usable and public-facing text is coherent.
 
+Current check on 2026-08-27:
+
+- Remote URL: `https://github.com/Lr1977/hangshi-diji.git`
+- Public repository: yes
+- Default branch: `main`
+- Latest pushed commit: `3d113c52890748b3141aa96950ced5425a49a74c`
+- README online: updated and readable
+- Description: missing in GitHub repository settings
+- Homepage: missing in GitHub repository settings
+- Topics: missing in GitHub repository settings
+- Social preview: not confirmed
+
+Recommended GitHub repository settings:
+
+- Description: `Reusable operating layer for long-running AI development: requirements, knowledge, verification, and audit.`
+- Website: `https://zhuanlan.zhihu.com/p/2076243464157664696`
+- Topics: `ai-agent`, `agent-workflow`, `requirements-management`, `knowledge-base`, `developer-workflow`, `prompt-engineering`, `openai`, `codex`
+
+Manual action needed if Codex cannot access GitHub settings UI: open `https://github.com/Lr1977/hangshi-diji`, click the About gear, then fill the description, website, and topics above.
+
 ### Step 2: Juejin
 
 Owner: Codex writes and fills, user logs in or confirms publish.
@@ -138,4 +158,3 @@ Day 5 to Day 7:
 - circulate short copy in private groups
 - update FAQ / README candidates
 - decide whether Gitee mirror is necessary
-
