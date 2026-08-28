@@ -175,6 +175,15 @@ Use this section to record public launches and later review what actually worked
 - Purpose: first long-form public explanation of Hangshi Diji / 夯实地基
 - Follow-up: watch reads, likes, saves, comments, and GitHub traffic changes for 7 days
 
+### 2026-08-28 Juejin Article
+
+- Platform: Juejin
+- Title: 我把 AI 长任务的需求、知识库和验证流程做成了一套可复用底座
+- Article URL: https://juejin.cn/post/7678897788894478336
+- Status: published
+- Purpose: engineering-focused introduction for AI agent workflow and knowledge-base audiences
+- Follow-up: watch reads, likes, saves, comments, and GitHub traffic changes for 7 days
+
 ## 12. Follow-up Rhythm
 
 After each public post:

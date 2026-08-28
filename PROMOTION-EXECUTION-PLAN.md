@@ -149,7 +149,7 @@ Day 1:
 Day 2:
 
 - check Zhihu 24-hour data
-- publish or prepare Juejin
+- published Juejin article: https://juejin.cn/post/7678897788894478336
 
 Day 3:
 

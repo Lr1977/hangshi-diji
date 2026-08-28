@@ -96,7 +96,6 @@ AI 长任务常见的失败不是突然失败，而是慢慢跑偏：
 
 项目名：Hangshi Diji / 夯实地基
 
-GitHub: `hangshi-diji`
+GitHub: https://github.com/Lr1977/hangshi-diji
 
 如果你也在做长周期 AI 项目，欢迎直接拿 starter 结构试一下，也欢迎提 issue 挑问题。
-
