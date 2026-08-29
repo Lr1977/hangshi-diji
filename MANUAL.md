@@ -23,8 +23,9 @@ Each project should expose:
 1. `AGENTS.md`
 2. `LOOP.md`
 3. `STATE.md`
-4. `docs/plans/`
-5. `docs/guardrail_report_*.md`
+4. `docs/handoff/LATEST.md`
+5. `docs/plans/`
+6. `docs/guardrail_report_*.md`
 
 ### Layer 3: Requirement Continuation Layer
 
@@ -48,8 +49,9 @@ Every serious session should read, in order:
 3. project `AGENTS.md`
 4. project `LOOP.md`
 5. project `STATE.md`
-6. relevant requirement docs
-7. linked `KB-*` entries
+6. project `docs/handoff/LATEST.md`
+7. relevant requirement docs
+8. linked `KB-*` entries
 
 ## Why This Matters
 
@@ -71,3 +73,13 @@ If a project is still early or unstable, only adopt:
 5. one audit record
 
 If the project becomes knowledge-heavy, then add requirement and KB layers.
+
+## Session Recovery Rule
+
+If a later session needs to re-enter a project, the project must be recoverable from files alone:
+
+1. `STATE.md` identifies the project and active work
+2. `docs/handoff/LATEST.md` captures the last transition
+3. requirement docs and `KB-*` entries carry the durable trail
+
+If any of those are missing, the project is not fully inheritable yet.

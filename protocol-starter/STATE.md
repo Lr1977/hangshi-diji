@@ -1,10 +1,25 @@
 # Live State
 
-## Current Focus
+## Project Identity
 
+- project name:
+- project root:
+- current branch:
 - active requirement ids:
 - current operator goal:
 - current runtime assumptions:
+
+## Last Handoff
+
+- session title:
+- date:
+- what was done:
+- what was verified:
+- what remains:
+
+## Current Focus
+
+-
 
 ## Known Risks
 
@@ -25,11 +40,12 @@
 
 Before making changes, read the latest:
 
-1. relevant requirement doc
-2. linked KB docs
-3. latest plan
-4. latest verification
-5. latest audit
+1. `docs/handoff/LATEST.md`
+2. relevant requirement doc
+3. linked KB docs
+4. latest plan
+5. latest verification
+6. latest audit
 
 ## Foundation Layer Check
 

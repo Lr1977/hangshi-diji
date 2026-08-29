@@ -9,6 +9,7 @@ Enter this project in the following order:
 3. read this file
 4. read `LOOP.md`
 5. read `STATE.md`
+6. read `docs/handoff/LATEST.md`
 
 ## Core Safety Rules
 
@@ -24,11 +25,14 @@ Enter this project in the following order:
 - `STATE.md`
 - `docs/plans/`
 - `docs/guardrails/`
+- `docs/handoff/`
 
 If the project has requirement / knowledge drift risk, also use:
 
 - `docs/requirements/`
 - `docs/kb/`
+
+When a later session resumes work, `docs/handoff/LATEST.md` is part of the required recovery path.
 
 ## Working Rule
 

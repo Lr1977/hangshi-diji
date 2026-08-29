@@ -36,6 +36,7 @@ Map older Hangshi Diji content into the new four-layer structure so future agent
 |---|---|---|
 | workflow protocol / agent operating rule | Foundation-Core | Example: plan -> implement -> verify -> audit |
 | requirement binding guidance | Foundation-Core | Stable operating rule |
+| session recovery / handoff read order | Foundation-Core | Stable operating rule for re-entering a project without chat history |
 | project requirement docs | Foundation-Project | Keep isolated per project |
 | project KB entries | Foundation-Project | Bind to concrete requirement points |
 | experiment notes | Foundation-Learnings | Keep evidence and scope attached |
@@ -58,6 +59,7 @@ Map older Hangshi Diji content into the new four-layer structure so future agent
 
 - current project requirements
 - current project KB index
+- current handoff files and session entry hints
 - repo-local operational notes
 - local capability notes
 
@@ -91,4 +93,3 @@ If any answer is no, keep it out of Foundation-Core.
 - Project: project-native naming
 - Learnings: `LEARN-*` or dated notes
 - Deprecated: `DEPRECATED-*` or archived original names
-

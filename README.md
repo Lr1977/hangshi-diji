@@ -31,6 +31,7 @@ This repository gives you a portable method kit, not a machine clone.
 - requirement-to-knowledge binding through stable `KB-*` references
 - a four-layer foundation model to keep core rules, project state, learnings, and retired guidance separated
 - starter templates you can copy into a real project immediately
+- a file-based recovery path for later sessions through `STATE.md` and `docs/handoff/LATEST.md`
 
 这不是环境克隆包，而是一套可迁移的工作方法：
 
@@ -78,6 +79,7 @@ The method is organized around four layers:
 - `CAPABILITIES.md`: what this kit transfers
 - `ADOPTION-STEPS.md`: how to install it into another setup
 - `OPEN-SOURCE-MANAGEMENT.md`: public/private boundary and maintenance rules
+- `docs/`: canonical recovery, plan, verification, audit, and handoff examples
 - `protocol-starter/`: reusable starter structure
 - `starter/`: smaller starter assets and templates
 
@@ -101,6 +103,20 @@ This kit intentionally does not ship:
 - move failed or outdated guidance into `Deprecated`
 - attach verification before calling a release complete
 - keep public docs separate from private runtime state
+
+## Session Recovery
+
+When a later Codex session needs to recover a project without chat history, read in this order:
+
+1. `AGENTS.md`
+2. `LOOP.md`
+3. `STATE.md`
+4. `docs/handoff/LATEST.md`
+5. the relevant requirement doc
+6. linked `KB-*` entries
+7. the latest plan, verification, and audit docs
+
+`STATE.md` should identify the project and current focus. `docs/handoff/LATEST.md` should record the last completed transition.
 
 ## Recommended GitHub Topics
 

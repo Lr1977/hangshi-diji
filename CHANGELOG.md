@@ -7,6 +7,7 @@
 - record first Zhihu launch in `LAUNCH-PLAYBOOK.md` with follow-up metrics rhythm
 - add promotion execution plan and platform-specific drafts for Juejin, V2EX, and short community posts
 - record GitHub readiness check and remaining repository settings actions
+- add file-based session recovery, handoff, and reverse-lookup docs for later Codex sessions
 
 ## v0.1.0
 

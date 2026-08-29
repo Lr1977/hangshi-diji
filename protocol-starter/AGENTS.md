@@ -17,9 +17,10 @@ Enter this project in the following order:
 3. read this file
 4. read `LOOP.md`
 5. read `STATE.md`
-6. read the relevant requirement doc
-7. read linked `KB-*` entries
-8. read the latest plan, verification, and audit docs for the active requirement
+6. read `docs/handoff/LATEST.md`
+7. read the relevant requirement doc
+8. read linked `KB-*` entries
+9. read the latest plan, verification, and audit docs for the active requirement
 
 Do not continue from chat memory alone when these files exist.
 
@@ -105,6 +106,8 @@ Do not hide behind generalities.
 - `docs/audits/`
 - `docs/experience/`
 - `docs/handoff/`
+
+The latest handoff file is part of the required recovery path, not an optional summary.
 
 ## Working Rule
 

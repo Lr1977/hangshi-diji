@@ -21,9 +21,10 @@ Read:
 1. `AGENTS.md`
 2. `LOOP.md`
 3. `STATE.md`
-4. active requirement docs
-5. linked `KB-*` entries
-6. latest related plan, verification, and audit docs
+4. `docs/handoff/LATEST.md`
+5. active requirement docs
+6. linked `KB-*` entries
+7. latest related plan, verification, and audit docs
 
 Restore must answer:
 
@@ -109,7 +110,7 @@ Update any local state that changed:
 - requirement docs
 - KB docs
 - experience notes
-- handoff doc when needed
+- `docs/handoff/LATEST.md`
 
 ### 8. Hand Off
 

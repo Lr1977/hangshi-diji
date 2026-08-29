@@ -6,14 +6,15 @@
 flowchart TD
   A[Start] --> B[Read Foundation-Core]
   B --> C[Read current Foundation-Project]
-  C --> D{Requirement point has KB bindings?}
-  D -- Yes --> E[Read linked Foundation-Learnings]
-  D -- No --> F[Proceed with project scope only]
-  E --> F
-  F --> G{Need historical trace?}
-  G -- Yes --> H[Read Foundation-Deprecated]
-  G -- No --> I[Implement / verify / audit]
-  H --> I
+  C --> D[Read current handoff / latest session record]
+  D --> E{Requirement point has KB bindings?}
+  E -- Yes --> F[Read linked Foundation-Learnings]
+  E -- No --> G[Proceed with project scope only]
+  F --> G
+  G --> H{Need historical trace?}
+  H -- Yes --> I[Read Foundation-Deprecated]
+  H -- No --> J[Implement / verify / audit]
+  I --> J
 ```
 
 ## Write Flow
@@ -31,6 +32,7 @@ flowchart TD
   E --> I
   G --> I
   H --> I
+  I --> J[Update handoff / state / session entry hints]
 ```
 
 ## Rules
@@ -65,4 +67,3 @@ Every promoted item should carry:
 - status
 - verification target
 - deprecation path if superseded
-

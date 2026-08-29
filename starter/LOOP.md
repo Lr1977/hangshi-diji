@@ -20,11 +20,12 @@ Read:
 1. `AGENTS.md`
 2. `LOOP.md`
 3. `STATE.md`
+4. `docs/handoff/LATEST.md`
 
 If requirements exist, also read:
 
-4. relevant requirement doc
-5. linked `KB-*` entries
+5. relevant requirement doc
+6. linked `KB-*` entries
 
 ## Frame
 
@@ -54,3 +55,7 @@ Record:
 - what was verified
 - what remains risky
 - what still needs human testing
+
+## Hand Off
+
+Update `docs/handoff/LATEST.md` with the session title, what changed, what was verified, and what the next session should read first.

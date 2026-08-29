@@ -12,6 +12,7 @@ Requirement docs should point here first, then to topic-specific entries.
 ## Topics
 
 - topic file:
+- session-recovery: file-based project recovery and handoff routing
 
 ## Rule
 

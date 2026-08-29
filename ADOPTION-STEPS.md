@@ -24,6 +24,7 @@ At minimum, update:
 - `starter/docs/kb/`
 - `starter/docs/kb/INDEX.md`
 - `starter/docs/kb/experiment-template.md`
+- `starter/docs/handoff/LATEST.md`
 
 ## 5. Tell the new Codex to start sessions by reading:
 
@@ -31,11 +32,12 @@ At minimum, update:
 2. project `AGENTS.md`
 3. project `LOOP.md`
 4. project `STATE.md`
+5. project `docs/handoff/LATEST.md`
 
 Then, if requirement docs exist:
 
-5. target requirement doc
-6. linked `KB-*` entries
+6. target requirement doc
+7. linked `KB-*` entries
 
 ## 6. Do not skip the split between requirement and knowledge
 
