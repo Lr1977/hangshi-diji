@@ -10,7 +10,7 @@
 
 如果你也在做长期 AI 项目，可以帮我看看这个方向有没有价值，也欢迎直接挑毛病。
 
-GitHub: `hangshi-diji`
+GitHub: https://github.com/Lr1977/hangshi-diji
 
 知乎介绍文：https://zhuanlan.zhihu.com/p/2076243464157664696
 
@@ -22,9 +22,8 @@ GitHub: `hangshi-diji`
 
 项目刚开源，欢迎看一眼，也欢迎提意见。
 
-GitHub: `hangshi-diji`
+GitHub: https://github.com/Lr1977/hangshi-diji
 
 ## One-line Reply
 
 它解决的不是“让 AI 更会聊天”，而是让长期 AI 项目的需求、知识、验证和审计能被后续 agent 继承。
-
