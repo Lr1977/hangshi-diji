@@ -1,5 +1,20 @@
 # Hangshi Diji / 夯实地基
 
+## Current Foundation Information
+
+- **Current version:** `v0.2.0`
+- **Current status:** execution continuity protocol and dependency-free CLI are released and verified
+- **Core purpose:** externalize project requirements, plans, facts, verification, deviations, and handoffs into files that later agents can read and Git can persist
+- **Recovery chain:** `requirement -> change -> task -> checkpoint -> verification -> reconciliation -> handoff`
+- **CLI entry:** `python tools/diji.py --root <project> <command>`
+- **Required persistence boundary:** projects using the CLI must be Git repositories; generated `.diji/` state is local runtime state and should be committed by the downstream project when its recovery history must be shared
+- **Capability boundary:** this system does not capture every chat message, hidden reasoning, or private model context compression; it significantly reduces loss caused by long-context compression and session handoff by preserving observable evidence
+- **Authoritative records:** read the bound requirement, latest plan, checkpoint, verification, reconciliation, and handoff together before continuing work
+
+The repository baseline is the `hangshi-diji` tag `v0.2.0`. Treat this
+section as the first-read foundation summary, then read the project's own
+`STATE.md` and latest handoff records.
+
 Bind requirements, knowledge, implementation, verification, and audit into one reusable operating layer for long-running AI development work.
 
 把需求、知识、实现、验证、审计绑定成一套可复用工作层，专门解决 AI 长任务里的漂移、遗忘和反复试错。
