@@ -32,6 +32,8 @@ This repository gives you a portable method kit, not a machine clone.
 - a four-layer foundation model to keep core rules, project state, learnings, and retired guidance separated
 - starter templates you can copy into a real project immediately
 - a file-based recovery path for later sessions through `STATE.md` and `docs/handoff/LATEST.md`
+- execution continuity records for requirement changes, tasks, checkpoints, and reconciliation
+- an optional dependency-free `diji` CLI for collecting Git-backed evidence
 
 这不是环境克隆包，而是一套可迁移的工作方法：
 
@@ -118,6 +120,34 @@ When a later Codex session needs to recover a project without chat history, read
 
 `STATE.md` should identify the project and current focus. `docs/handoff/LATEST.md` should record the last completed transition.
 
+## Execution Continuity
+
+For non-trivial work, use the execution chain:
+
+```text
+requirement -> change analysis -> task plan -> checkpoint -> verification -> reconciliation -> handoff
+```
+
+The protocol does not try to preserve every chat message. It preserves the
+facts that future work depends on: what changed, which plan was approved, what
+Git evidence exists, what deviated, and what should happen next.
+
+The optional CLI uses only Python's standard library:
+
+```text
+python tools/diji.py --root <project> init
+python tools/diji.py --root <project> change "new requirement" --requirements REQ-001
+python tools/diji.py --root <project> start "task title" --requirement REQ-001
+python tools/diji.py --root <project> checkpoint --note "confirmed fact"
+python tools/diji.py --root <project> reconcile --step-status 1=done
+python tools/diji.py --root <project> handoff
+python tools/diji.py --root <project> status
+```
+
+The CLI collects observable evidence; it does not decide whether a feature
+semantically satisfies a requirement. Verification and reconciliation remain
+required.
+
 ## Recommended GitHub Topics
 
 Add these topics in the GitHub repository UI for discoverability:
@@ -141,4 +171,4 @@ If you want this repository to attract the right users, prepare these assets:
 - one real case summary
 - one launch post for GitHub / Zhihu / Juejin / community groups
 
-Execution details and ready-to-post copy live in [LAUNCH-PLAYBOOK.md](C:/Users/ASUS/Desktop/LQ/codex-universal-inheritance-kit/LAUNCH-PLAYBOOK.md).
+Execution details and ready-to-post copy live in [LAUNCH-PLAYBOOK.md](./LAUNCH-PLAYBOOK.md).

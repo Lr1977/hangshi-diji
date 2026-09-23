@@ -20,3 +20,7 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Python caches and local execution-continuity state
+__pycache__/
+*.pyc
+.diji/

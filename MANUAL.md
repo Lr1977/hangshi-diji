@@ -40,6 +40,20 @@ This layer is now referred to as:
 
 - `夯实地基`
 
+### Layer 4: Execution Continuity Layer
+
+For long-running work, add the explicit chain:
+
+1. requirement change analysis
+2. task and plan baseline
+3. execution checkpoint
+4. verification evidence
+5. plan-versus-actual reconciliation
+6. handoff update
+
+The `diji` CLI can generate the records and collect Git evidence. It cannot
+replace semantic review or verification.
+
 ## Session Entry Order
 
 Every serious session should read, in order:
@@ -83,3 +97,10 @@ If a later session needs to re-enter a project, the project must be recoverable 
 3. requirement docs and `KB-*` entries carry the durable trail
 
 If any of those are missing, the project is not fully inheritable yet.
+
+## Change And Reconciliation Rule
+
+When a new request arrives, do not silently edit an old plan. Create a change
+record that states whether the request appends, revises, replaces, conflicts
+with, or is unrelated to the existing requirement. At task completion, compare
+every planned step with the actual result and record deviations explicitly.

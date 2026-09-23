@@ -56,3 +56,25 @@ Re-enter:
 - local env vars
 
 manually on the target machine.
+
+## 8. Adopt execution continuity for long-running work
+
+Copy or create these directories in the target project:
+
+- `docs/changes/`
+- `docs/plans/`
+- `docs/tasks/`
+- `docs/checkpoints/`
+- `docs/reconciliation/`
+- `docs/events/`
+- `.diji/` (generated state and event log)
+
+Then initialize the optional CLI from this repository:
+
+```text
+python tools/diji.py --root <target-project> init
+```
+
+Use `change` before a new requirement changes scope, `start` before a
+multi-step task, `checkpoint` at meaningful boundaries, `reconcile` after
+verification, and `handoff` before leaving the session.

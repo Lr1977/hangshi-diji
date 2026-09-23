@@ -51,6 +51,15 @@ This kit is designed to transfer these concrete capabilities to another Codex se
 - attach verification to the actual changed path
 - use audit records for meaningful milestones
 
+### 8. Execution Continuity
+
+- record requirement changes before silently changing scope
+- create a task and plan baseline before multi-step implementation
+- capture Git-backed checkpoints at context boundaries
+- reconcile every planned step against the actual result
+- generate a handoff that tells the next session what to read first
+- keep machine-observable lifecycle events in `.diji/events.jsonl`
+
 ## Capability Boundary
 
 This kit does not itself provide:
